@@ -1,0 +1,56 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+body{
+    background: url(fondoperfil.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'century gothic', sans-serif;
+}
+.cuerpo{
+    width: 500px;
+    background: rgba(0, 0, 0, .4);
+    margin: 0 auto;
+    margin-top: 4%;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+}
+.cuerpo-img{
+    border-radius: 50%;
+}
+.cuerpo h1{
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 100;
+    margin: 30px 0 20;
+}
+.cuerpo h2{
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+.cuerpo p{
+    text-align: justify;
+    font-size: 15px;
+}
+.cuerpo ul{
+    list-style: none;
+    margin-top: 20px;
+    
+}
+.cuerpo ul li{
+    display: flexbox;
+    list-style: none;
+}
+.cuerpo ul li a{
+    color: rgb(249, 249, 249);
+    font-size: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+    border-style: solid;
+}
